@@ -1,0 +1,608 @@
+* {
+  border: 0;
+  left: 0;
+  right: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  font-family: "Mulish";
+}
+
+.main-container {
+  display: flex;
+  align-content: center;
+  position: relative;
+  width: 1600px;
+  height: 5450px;
+
+}
+
+.logo {
+  position: absolute;
+  width: 160px;
+  height: 41px;
+  left: 191px;
+  top: 56px;
+}
+
+.element1 {
+  position: absolute;
+  left: -3.12%;
+  right: 94.9%;
+  top: 2.73%;
+  bottom: 95.32%;
+
+  opacity: 0.3;
+}
+
+.top-nav {
+  position: absolute;
+  width: 545px;
+  height: 23px;
+  left: 863px;
+  top: 70px;
+}
+
+.header-illustration {
+  position: absolute;
+  left: 46.5%;
+  right: 10.19%;
+  top: 3.02%;
+  bottom: 86.8%;
+}
+
+.header-text {
+  position: absolute;
+  left: 11.88%;
+  right: 61.44%;
+  top: 4.82%;
+  bottom: 93.27%;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+
+  /* or 117% */
+
+  color: #000000;
+
+  mix-blend-mode: normal;
+}
+
+.header-info {
+  position: absolute;
+  left: 11.88%;
+  right: 60.31%;
+  top: 7.16%;
+  bottom: 91.21%;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 32px;
+
+  /* or 152% */
+
+  color: #7d7987;
+
+  mix-blend-mode: normal;
+}
+
+.consult-btn {
+  position: absolute;
+  left: 11.88%;
+  right: 75.62%;
+  top: 9.61%;
+  bottom: 89.44%;
+
+  background: #458ff6;
+  border-radius: 55px;
+}
+
+.btn-text {
+  position: absolute;
+  left: 14.38%;
+  right: 78.12%;
+  top: 9.3%;
+  bottom: 89.42%;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 60px;
+
+  /* identical to box height, or 333% */
+
+  color: #ffffff;
+
+  mix-blend-mode: normal;
+}
+
+.services-header {
+  position: absolute;
+  left: 43.44%;
+  right: 43.31%;
+  top: 16.47%;
+  bottom: 82.57%;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 56px;
+
+  /* identical to box height, or 156% */
+
+  color: #000000;
+
+  mix-blend-mode: normal;
+}
+
+.divider {
+  position: absolute;
+  width: 56px;
+  height: 2px;
+  left: 772px;
+  top: 1049px;
+
+  background: #000000;
+  border-radius: 5px;
+}
+
+.service-text {
+  position: absolute;
+  left: 20.19%;
+  right: 20.31%;
+  top: 18.47%;
+  bottom: 80.51%;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+
+  /* or 167% */
+  text-align: center;
+
+  color: #7d7987;
+
+  mix-blend-mode: normal;
+}
+
+.vector-frame {
+  position: absolute;
+  width: 937.96px;
+  height: 671.38px;
+  left: -20.42px;
+  top: 965px;
+
+  opacity: 0.6;
+}
+.vector {
+  position: absolute;
+  left: 6.18%;
+  right: -46.18%;
+  top: 35%;
+  bottom: 0%;
+  z-index: -1;
+}
+
+/* card */
+
+.card {
+  position: relative;
+  background: #ffffff;
+  left: 240px;
+  top: 1244px;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  border-radius: 20px;
+  width: 350px;
+  height: 354px;
+}
+
+.card .search-doctor {
+  position: relative;
+  left: 39px;
+  margin-top: 54px;
+}
+
+.card .card-title {
+  position: relative;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 56px;
+  color: #000000;
+  left: 39px;
+}
+
+.card .card-text {
+  position: relative;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  left: 39px;
+  color: #7d7987;
+  width: 256px;
+}
+
+.card-row1 {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+}
+.card-row-1 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+}
+.card-row2 {
+  position: relative;
+  top: 400px;
+  left: -1120px;
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+}
+
+.element {
+  position: absolute;
+  top: 1551px;
+  left: 1278px;
+  opacity: 0.6;
+}
+
+.card .pharmacy {
+  position: relative;
+  top: 62px;
+  left: 37px;
+}
+
+.card-title-pharmacy {
+  position: relative;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 56px;
+  color: #000000;
+  left: 39px;
+  margin-top: 70px;
+}
+
+.consultation-img {
+  position: relative;
+  width: 67.3px;
+  height: 95px;
+  top: 47px;
+  left: 38px;
+}
+
+.card-title-consultation {
+  position: relative;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 56px;
+  color: #000000;
+  left: 39px;
+  margin-top: 60px;
+}
+
+.details-img {
+  position: relative;
+  margin-top: 46px;
+  left: 37px;
+}
+
+.Emergency-care {
+  position: relative;
+  margin-top: 70px;
+  left: 37px;
+}
+
+.tracking-img {
+  position: relative;
+  margin-top: 52px;
+  left: 38px;
+}
+
+.card-title-tracking {
+  position: relative;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 56px;
+  color: #000000;
+  left: 39px;
+  margin-top: 10px;
+}
+
+.learn-more-btn {
+  position: absolute;
+  top: 2071px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  position: absolute;
+  display: flex;
+  align-content: space-between;
+  top: 2318px;
+}
+
+.illustration-sec2 {
+  position: relative;
+  height: 477px;
+  width: 650px;
+  left: 135px;
+  border-radius: 0px;
+}
+
+.providers {
+  margin-top: 55px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 56px;
+  color: #000000;
+}
+
+.right-align {
+  position: absolute;
+  left: 927px;
+}
+
+.right-align .text p {
+  margin-top: 31px;
+  height: 120px;
+  width: 450px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #7d7987;
+}
+
+.providers {
+  width: 418px;
+  height: 112px;
+}
+
+.divider2 {
+  width: 56px;
+  height: 2px;
+  background: #000000;
+  border-radius: 5px;
+}
+.divider3 {
+  width: 56px;
+  height: 2px;
+  background: #000000;
+  border-radius: 5px;
+  position: absolute;
+  left: 282px;
+  margin-top: 150px;
+}
+
+.divider4 {
+  position: absolute;
+  width: 56px;
+  height: 2px;
+  left: 772px;
+  top: 4515px;
+  background: #000000;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+.learnmorebtn {
+  margin-top: 30px;
+}
+
+.illustraction-element {
+  position: absolute;
+  height: 114.99999237060547px;
+  width: 131.58103942871094px;
+  left: 1514px;
+  top: 2783px;
+  border-radius: 0px;
+}
+
+.wrapper-mobile {
+  position: absolute;
+  display: flex;
+  top: 3024px;
+}
+
+.mobile-image {
+  position: absolute;
+  height: 434px;
+  width: 665px;
+  left: 771px;
+}
+
+.mobile-app-text h1 {
+  position: absolute;
+  height: 96px;
+  width: 254px;
+  left: 280px;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  color: #000000;
+}
+
+.mobile-app-text p {
+  position: absolute;
+  height: 120px;
+  width: 420px;
+  left: 280px;
+  margin-top: 180px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #7d7987;
+}
+
+.downloadbtn {
+  position: relative;
+  width: 200px;
+  height: 56px;
+  left: 280px;
+  margin-top: 350px;
+}
+
+.testimonials {
+  position: absolute;
+  width: 1219.58px;
+  height: 502px;
+  left: 190px;
+  top: 3709px;
+}
+
+.lastest {
+  position: absolute;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 56px;
+  color: #000000;
+  height: 56px;
+  width: 462px;
+  left: 569px;
+  top: 4433.000244140625px;
+}
+
+.latest-img {
+  position: absolute;
+  height: 114.99999237060547px;
+  width: 131.58103942871094px;
+  left: 191px;
+  top: 4554.000244140625px;
+  border-radius: 0px;
+}
+
+.vector3 {
+  position: absolute;
+  height: 557.3833988450716px;
+  width: 778.7243927298886px;
+  left: 1053px;
+  top: 4554.000244140625px;
+  border-radius: 0px;
+}
+
+.article-card {
+  position: relative;
+  width: 350px;
+  height: 512px;
+  top: 4596px;
+  overflow: hidden;
+  background-color: #ffffff;
+  /* drop shadow */
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  border-radius: 20px;
+}
+
+.card-block {
+  position: relative;
+  margin-left: 33px;
+  margin-right: 54px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  margin-top: 22px;
+  color: #7d7987;
+}
+
+.card-heading {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 32px;
+  color: #000000;
+}
+
+.arrow {
+  position: relative;
+  left: 10px;
+}
+
+.viewall {
+  position: absolute;
+  width: 200px;
+  height: 60px;
+  left: 700px;
+  top: 5177px;
+}
+
+.footer {
+  position: absolute;
+  width: 1638px;
+  height: 523px;
+  left: -19px;
+  top: 5366px;
+}
+
+.footer-element {
+  position: relative;
+  top: 0;
+  right: 0;
+  left: 92%;
+}
+
+.footer-background {
+  position: absolute;
+  width: 100%;
+  height: 432px;
+  left: 0px;
+  top: 75px;
+  background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
+  color: white;
+}
+
+.trafalgar {
+  position: relative;
+  left: 190px;
+  top: 118px;
+}
+
+.company {
+  position: relative;
+  left: 726px;
+  top: -90px;
+}
+
+.region {
+  position: relative;
+  left: 995px;
+  top: -310px;
+}
+
+.help {
+  position: relative;
+  left: 1228px;
+  top: -525px;
+}
